@@ -1,0 +1,14 @@
+# file: pyproject.toml
+[build-system]
+requires = ["setuptools", "setuptools-grpc==1.0.0b2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-test"
+version = "0.0.1"
+dependencies = [
+    "grpcio"
+]
+
+[tool.setuptools]
+packages = ["test"]

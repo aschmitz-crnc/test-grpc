@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package my_test;
+
+service MyService {
+    rpc Test( TestRequest ) returns ( TestResponse ) {}
+}
+
+message TestRequest {
+}
+
+message TestResponse {
+}
