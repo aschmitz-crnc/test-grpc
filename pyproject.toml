@@ -1,6 +1,6 @@
 # file: pyproject.toml
 [build-system]
-requires = ["setuptools", "setuptools-grpc==1.0.0b2"]
+requires = ["setuptools", "./setuptools_grpc-1.0.0b2-py3-none-any.whl"] # "setuptools-grpc==1.0.0b2"
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -11,4 +11,4 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["test"]
+packages = ["test", "proto"]
