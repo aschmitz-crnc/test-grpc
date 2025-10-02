@@ -1,5 +1,5 @@
-import test_pb2
-import test_pb2_grpc
+import my_test.test_pb2
+import my_test.test_pb2_grpc
 
 class CrgServiceImpl(launcher_pb2_grpc.CrgService):
     def __init(self):
