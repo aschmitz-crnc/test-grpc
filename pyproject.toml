@@ -12,3 +12,6 @@ dependencies = [
 
 [tool.setuptools]
 packages = ["my_test", "proto"]
+
+[project.scripts]
+my_test = "my_test.test:__main__"
